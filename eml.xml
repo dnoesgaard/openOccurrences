@@ -1,0 +1,124 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+         xmlns:dc="http://purl.org/dc/terms/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+         packageId="https://ipt.gbif.org/resource?id=openoccurrences/v1.0" system="http://gbif.org" scope="system"
+         xml:lang="eng">
+
+<dataset>
+  <title xml:lang="eng">Open occurrences</title>
+      <creator>
+    <individualName>
+        <givenName>Daniel</givenName>
+      <surName>Noesgaard</surName>
+    </individualName>
+    <organizationName>GBIF Secretariat</organizationName>
+    <positionName>Science Communications Coordinator</positionName>
+    <address>
+        <country>DK</country>
+    </address>
+    <electronicMailAddress>dnoesgaard@gbif.org</electronicMailAddress>
+          <userId directory="http://orcid.org/">0000-0002-0407-1805</userId>
+      </creator>
+      <metadataProvider>
+    <individualName>
+        <givenName>Daniel</givenName>
+      <surName>Noesgaard</surName>
+    </individualName>
+    <organizationName>GBIF Secretariat</organizationName>
+    <positionName>Science Communications Coordinator</positionName>
+    <address>
+        <country>DK</country>
+    </address>
+    <electronicMailAddress>dnoesgaard@gbif.org</electronicMailAddress>
+          <userId directory="http://orcid.org/">0000-0002-0407-1805</userId>
+      </metadataProvider>
+  <pubDate>
+      2019-04-16
+  </pubDate>
+  <language>eng</language>
+  <abstract>
+    <para>This dataset contains occurrence records found in literature as part of the GBIF Secretariat literature tracking programme.</para>
+  </abstract>
+      <keywordSet>
+            <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+  <intellectualRights>
+    <para>To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the <ulink url="http://creativecommons.org/publicdomain/zero/1.0/legalcode"><citetitle>Public Domain (CC0 1.0)</citetitle></ulink>. Users may copy, modify, distribute and use the work, including for commercial purposes, without restriction.</para>
+  </intellectualRights>
+  <distribution scope="document">
+    <online>
+      <url function="information">https://github.com/dnoesgaard/openOccurrences</url>
+    </online>
+  </distribution>
+  <coverage>
+      <geographicCoverage>
+          <geographicDescription>This dataset has an unlimited scope in terms of geography and taxonomy.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-180</westBoundingCoordinate>
+          <eastBoundingCoordinate>180</eastBoundingCoordinate>
+          <northBoundingCoordinate>90</northBoundingCoordinate>
+          <southBoundingCoordinate>-90</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+  </coverage>
+  <maintenance>
+    <description>
+      <para></para>
+    </description>
+    <maintenanceUpdateFrequency>continually</maintenanceUpdateFrequency>
+  </maintenance>
+
+      <contact>
+    <individualName>
+        <givenName>Daniel</givenName>
+      <surName>Noesgaard</surName>
+    </individualName>
+    <organizationName>GBIF Secretariat</organizationName>
+    <positionName>Science Communications Coordinator</positionName>
+    <address>
+        <country>DK</country>
+    </address>
+    <electronicMailAddress>dnoesgaard@gbif.org</electronicMailAddress>
+          <userId directory="http://orcid.org/">0000-0002-0407-1805</userId>
+      </contact>
+  <methods>
+        <methodStep>
+          <description>
+            <para>See https://www.gbif.org/literature-tracking</para>
+          </description>
+        </methodStep>
+      <sampling>
+        <studyExtent>
+          <description>
+            <para>Species occurrences found in open access literature with open licenses since 2019</para>
+          </description>
+        </studyExtent>
+        <samplingDescription>
+          <para>See https://www.gbif.org/literature-tracking</para>
+        </samplingDescription>
+      </sampling>
+  </methods>
+  <project >
+    <title>Literature tracking</title>
+      <personnel>
+        <individualName>
+            <givenName>Daniel</givenName>
+          <surName>Noesgaard</surName>
+        </individualName>
+              <userId directory="http://orcid.org/">0000-0002-0407-1805</userId>
+        <role></role>
+      </personnel>
+  </project>
+</dataset>
+  <additionalMetadata>
+    <metadata>
+      <gbif>
+          <dateStamp>2019-04-16T03:04:34.855+02:00</dateStamp>
+          <hierarchyLevel>dataset</hierarchyLevel>
+            <citation>Noesgaard D (2019): Open occurrences. v1. GBIF Secretariat. Dataset/Occurrence. https://ipt.gbif.org/resource?r=openoccurrences&amp;amp;v=1.0</citation>
+      </gbif>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>
